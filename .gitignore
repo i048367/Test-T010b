@@ -9,6 +9,10 @@ changes_preview.js
 fioriHtmlRunner.html
 .*/fioriHtmlRunner.html
 mock_preview_sapui5.html
+<<<<<<< Upstream, based on 468451fcb5411b1aa96efcd70745bd4631ccf57b
 .*/mock_preview_sapui5.html
 preview.json
 cp.project.properties.json
+=======
+.*/mock_preview_sapui5.html
+>>>>>>> 15fdb40 push to git 

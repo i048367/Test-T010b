@@ -1,4 +1,5 @@
 {
+<<<<<<< Upstream, based on 468451fcb5411b1aa96efcd70745bd4631ccf57b
   "welcomeFile": "/webapp/test/flpSandbox.html",
   "routes": [
     {
@@ -76,4 +77,53 @@
     }
   ],
   "sendWelcomeFileRedirect": true
+=======
+  "routes": [
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "GM6",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "Gateway system GM6"
+    }
+  ]
+>>>>>>> 15fdb40 push to git 
 }
